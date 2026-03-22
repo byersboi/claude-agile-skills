@@ -26,6 +26,14 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 | `facilitation` | Session design, PODA framework, diverge-converge, Liberating Structures, remote facilitation |
 | `conflict-management` | Thomas-Kilmann modes, escalation ladder, SBI feedback, common agile conflict scenarios |
 | `continuous-improvement` | PDCA, Kaizen, Five Whys, Value Stream Mapping, Theory of Constraints, making improvements stick |
+| `release-management` | Release cadence, go/no-go, feature flags, deployment coordination, rollback, DORA metrics |
+| `lean-portfolio-management` | Portfolio Kanban, lean budgeting, WSJF, value streams, portfolio governance and metrics |
+| `okr-management` | Writing OKRs, cadence, scoring, OKR hierarchy, connecting to delivery, facilitation |
+| `change-management` | ADKAR, Kotter, change curve, resistance, agile transformation, sustaining change |
+| `value-stream-mapping` | Current/future state mapping, lean waste, flow efficiency, improvement backlog |
+| `supplier-management` | Agile contracting, SLAs, integrating suppliers, offshore teams, vendor relationships |
+| `sm-mentoring` | SM maturity model, mentoring conversations, observing & feedback, supervision, CoP, SM career paths |
+| `sm-one-to-ones` | 1:1 purpose and structure, agenda ownership, coaching vs pastoral care, confidentiality, team member types |
 
 ## Installation
 
