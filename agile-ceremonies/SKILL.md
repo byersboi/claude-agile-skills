@@ -1,0 +1,184 @@
+---
+name: Agile Ceremonies
+description: This skill should be used when the user asks about "agile ceremonies", "agile meetings", "facilitating ceremonies", "sprint planning facilitation", "retrospective facilitation", "daily standup facilitation", "sprint review facilitation", "backlog refinement", "backlog grooming", "story mapping", "user story workshop", "definition of ready", "working agreements", "team charter", "inception workshop", "kickoff workshop", "release planning", "PI planning facilitation", "facilitation techniques agile", "diverge converge", "liberating structures", or needs help planning or running any agile ceremony or workshop.
+version: 1.0.0
+---
+
+# Agile Ceremonies
+
+Ceremonies (also called events or meetings) are the primary inspection-and-adaptation mechanisms in agile frameworks. Effective ceremonies create shared understanding, surface impediments, and produce actionable outputs. Ineffective ceremonies are compliance theatre that erode team morale and trust.
+
+## Principles for Effective Facilitation
+
+1. **Clear purpose before structure**: Every ceremony should have a stated purpose, desired outcomes, and agenda shared in advance
+2. **Silence before discussion**: Individual reflection before group discussion prevents anchoring and groupthink
+3. **Visible outputs**: Use a physical or digital board — not just conversation — to capture discussion
+4. **Timeboxing**: Set and honour time limits for each segment; use a visible timer
+5. **Psychological safety first**: Open with connection; close with commitment
+6. **Close with actions**: Every ceremony ends with ≥1 named, owned, time-bound action item
+
+---
+
+## Sprint Planning
+
+**Purpose**: Create a shared plan for the Sprint, including Sprint Goal and Sprint Backlog.
+
+**Timebox**: ≤ 8 hours for 1-month Sprint (scale proportionally)
+
+**Agenda**:
+1. **Why** (30 min): PO presents Sprint Goal proposal; team discusses and refines it
+2. **What** (60–90 min): Team selects items from Product Backlog based on capacity and Sprint Goal; PO clarifies
+3. **How** (remaining time): Developers decompose selected items into tasks ≤ 1 day; create Sprint Backlog
+
+**Facilitation tips**:
+- Start with the Sprint Goal, not the backlog list — items should serve the goal
+- Track capacity explicitly (available hours minus meetings, leave, ceremonies)
+- Use a capacity/velocity guide, not a commitment
+- If items can't be broken down sufficiently, they need refinement — don't plan unrefined items
+
+---
+
+## Daily Scrum
+
+**Purpose**: Inspect progress toward Sprint Goal; adapt the Sprint Backlog plan.
+
+**Timebox**: 15 minutes maximum
+
+**Format options**:
+- Classic 3 questions: Yesterday / Today / Blockers (team-centric, not SM-centric)
+- Walk the board: Review each in-progress item on the Sprint Backlog; discuss blockers
+- Sprint Goal focus: "What did we do yesterday to advance the Sprint Goal? What will we do today?"
+
+**Facilitation tips**:
+- Developers run this event — SM facilitates only when needed
+- Start at the same time and place daily
+- If discussions emerge, capture them and take offline ("let's park that and pick it up after the standup")
+- Track impediments visibly — if they're not on the board, they don't exist
+
+---
+
+## Backlog Refinement
+
+**Purpose**: Ensure the Product Backlog is ready for upcoming Sprint Planning.
+
+**Timebox**: Typically 5–10% of Sprint capacity; often one or two sessions per sprint.
+
+**Target output**: Top of backlog items are small enough (≤ half a sprint day's work), well-understood, and meet a Definition of Ready (if the team uses one).
+
+**Agenda**:
+1. Review existing items: clarifications, re-estimation if needed
+2. Break down large items (Epics → Features → Stories)
+3. Add acceptance criteria
+4. Estimate using team's chosen technique
+
+**Facilitation tips**:
+- PO sets agenda and orders items; team shapes them
+- Use time limits per item to prevent rabbit holes
+- Items that need significant investigation should trigger a spike, not unbounded discussion
+- Aim to keep 2–3 sprints of refined items at the top of the backlog
+
+---
+
+## Sprint Review
+
+**Purpose**: Inspect the Increment and adapt the Product Backlog based on feedback.
+
+**Timebox**: ≤ 4 hours for 1-month Sprint
+
+**Agenda**:
+1. **Context** (10 min): SM or PO: Sprint Goal, what was completed, what wasn't
+2. **Demo** (30–60 min): Team demonstrates working product; stakeholders interact — not just watch
+3. **Feedback** (20–30 min): What's working? What's missing? What changed in the environment?
+4. **Backlog adaptation** (20 min): PO adjusts backlog based on feedback; team forecasts next sprint
+
+**Facilitation tips**:
+- Frame it as a collaboration, not a show — invite stakeholders to try the product
+- Prepare a clear demo flow; assign demonstrators; test everything beforehand
+- Celebrate completed work before diving into feedback
+- Capture feedback visibly; make clear what will be added to the backlog
+- If nothing was completed, still run the review — transparency about scope and impediments is valuable
+
+---
+
+## Sprint Retrospective
+
+See **`references/retrospective-formats.md`** in the `scrum` skill for detailed formats.
+
+**Purpose**: Inspect how the team worked and create an improvement plan.
+
+**Timebox**: ≤ 3 hours for 1-month Sprint
+
+**Core structure** (regardless of format):
+1. **Set the stage** (5–10 min): Check-in; prime directive
+2. **Gather data** (10–15 min): Silent individual writing
+3. **Generate insights** (15–20 min): Discussion; pattern identification
+4. **Decide on actions** (15–20 min): Select ≤3 improvements; make them specific and owned
+5. **Close** (5 min): Retro on the retro; appreciation
+
+---
+
+## Backlog / Story Mapping
+
+**User Story Mapping** (Jeff Patton's technique): A visual approach to understanding user journeys and creating a structured backlog.
+
+**How to run**:
+1. **Identify users and goals**: Who are we building for? What are they trying to achieve?
+2. **Map activities** (top row, left to right): High-level activities in sequence (the user journey backbone)
+3. **Map tasks** (below activities): Specific tasks within each activity
+4. **Slice for releases** (horizontal cuts): Group tasks into releases by value, not completion
+
+**Output**: A map showing the full user journey, with releases as horizontal slices across the map. Enables scope conversations grounded in user value.
+
+---
+
+## Working Agreements / Team Charter
+
+Run at team formation or when norms need resetting.
+
+**Facilitation format**:
+1. **Individual brainstorm** (10 min): What do you need from this team to do your best work?
+2. **Share and cluster** (15 min): Group similar ideas
+3. **Discuss and agree** (20 min): For each cluster, agree on a norm (specific, observable behaviour)
+4. **Document and display** (5 min): Make agreements visible on the team wall/space
+
+**Topics to cover**: Core hours / availability, communication channels, meeting norms, definition of done, how decisions are made, how conflicts are resolved, quality standards.
+
+**Review periodically**: Revisit working agreements in retrospectives, especially after team changes.
+
+---
+
+## Inception / Kickoff Workshop
+
+Use at the start of a new product, programme, or major initiative.
+
+**Purpose**: Align the team on vision, scope, users, risks, and ways of working before the first sprint.
+
+**Typical agenda (1–2 days)**:
+1. Vision and product goal
+2. User identification and empathy mapping
+3. User story mapping or impact mapping
+4. High-level backlog creation and prioritisation
+5. Risk identification
+6. Team working agreements
+7. Technical architecture overview
+8. Definition of Done and Definition of Ready
+9. First sprint planning
+
+---
+
+## Facilitation Techniques (Quick Reference)
+
+| Technique | Purpose | How |
+|---|---|---|
+| 1-2-4-All | Inclusive discussion | Think alone → pair → group of 4 → all |
+| Dot voting | Prioritisation | Each person gets N dots to place on options |
+| Fist of Five | Consent | Rate agreement 0–5 simultaneously |
+| Round Robin | Equal voice | Each person speaks once before anyone speaks twice |
+| Parking Lot | Manage scope | Visible list of important-but-off-topic items |
+| Timebox | Pace control | Visible timer; honour when it expires |
+| Paired affinity | Clustering | Silently group similar stickies together |
+
+## Additional Resources
+
+- **`references/retrospective-formats.md`** — Full set of retrospective formats (see `scrum` skill)
+- **`references/facilitation-tools.md`** — Digital tools for remote ceremony facilitation
