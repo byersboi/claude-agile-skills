@@ -34,6 +34,7 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 | `supplier-management` | Agile contracting, SLAs, integrating suppliers, offshore teams, vendor relationships |
 | `sm-mentoring` | SM maturity model, mentoring conversations, observing & feedback, supervision, CoP, SM career paths |
 | `sm-one-to-ones` | 1:1 purpose and structure, agenda ownership, coaching vs pastoral care, confidentiality, team member types |
+| `team-health` | Health dimensions, sprint surveys, triangulating signals, reading trends, acting on data, health check formats |
 
 ## Installation
 
