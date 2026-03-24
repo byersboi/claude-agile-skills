@@ -1,6 +1,6 @@
 ---
 name: Agile Coach
-description: This skill should be used when the user asks about "agile coach", "agile coaching", "coaching stance", "coaching stances", "team coaching", "organisational coaching", "coaching agreement", "coaching conversation", "team maturity", "tuckman model", "forming storming norming performing", "agile coaching competencies", "enterprise agile coaching", "coaching vs mentoring", "facilitation vs coaching", "psychological safety", "team dynamics", "systemic coaching", "coaching the organisation", "coaching anti-patterns", or is working in an agile coach or transformation role.
+description: This skill should be used when the user asks about "agile coach", "agile coaching", "coaching stance", "coaching stances", "team coaching", "organisational coaching", "coaching agreement", "coaching conversation", "team maturity", "tuckman model", "forming storming norming performing", "agile coaching competencies", "enterprise agile coaching", "coaching vs mentoring", "facilitation vs coaching", "psychological safety", "team dynamics", "systemic coaching", "coaching the organisation", "coaching anti-patterns", "coaching a product owner", "coaching a scrum master", "coaching a team member", "coaching a leader", "coaching an agile manager", "role-specific coaching", or is working in an agile coach or transformation role.
 version: 1.0.0
 ---
 
@@ -115,6 +115,62 @@ Team-level coaching has limits. Many team dysfunctions are symptoms of organisat
 - **Governance adaptation**: Changing funding models, stage-gates, and reporting to support agile delivery
 - **Change management**: Using Kotter's 8-step, ADKAR, or other models for sustained transformation
 - **Coalition building**: Identifying and growing internal champions at all levels
+
+## Role-Specific Coaching Approaches
+
+General coaching competencies apply in all contexts, but the *content* of coaching conversations varies significantly by role. The entry points, blind spots, and growth areas differ for a Product Owner, a Scrum Master, a team member, and a leader. Knowing what to focus on with each role makes coaching more targeted and effective.
+
+### Coaching the Product Owner
+
+The PO role is frequently misunderstood — both by the person in it and by the organisation around them. Common coaching focus areas:
+
+- **Story writing and acceptance criteria**: Moving from feature requests to outcome-oriented stories; writing testable acceptance criteria
+- **Backlog management**: Ordering by value not volume; pruning ruthlessly; resisting the urge to over-specify
+- **Prioritisation discipline**: Using evidence and data (WSJF, cost of delay, user research) rather than stakeholder pressure or gut feel
+- **Stakeholder management**: Saying no with data; managing expectations proactively; distinguishing between wants and needs
+- **Product vision**: Articulating and communicating a coherent vision that guides daily decisions
+- **PO availability**: Being present and accessible for the team; not treating refinement as optional
+
+**Key coaching question**: "If you could only ship one thing this sprint, what would it be — and why does that maximise value for the user?"
+
+### Coaching the Scrum Master
+
+Scrum Masters often start as facilitators and need coaching to become systemic change agents. Common focus areas:
+
+- **Facilitation quality**: Moving beyond running meetings to creating genuine dialogue and shared understanding
+- **Protecting the team**: Learning to push back on organisational interference without becoming defensive
+- **Servant leadership in practice**: Distinguishing between helping the team and doing the work for them
+- **Challenging limiting beliefs**: Helping SMs see where they are avoiding difficult conversations or accepting dysfunction as normal
+- **Positive intent**: Coaching SMs to assume good intent in team and stakeholder behaviour before attributing negative motives
+- **Developing their own coaching stance**: Moving from answer-giver to question-asker
+
+**Key coaching question**: "What would the team be able to do without you that they can't do today — and what are you doing to get them there?"
+
+### Coaching Team Members
+
+Individual team members often need coaching through the transition to agile ways of working. Common focus areas:
+
+- **Understanding their role in the change**: Why agile? What does it mean for how they work day to day?
+- **Behavioural shifts**: Moving from task-taker to self-organiser; from waiting for direction to raising impediments; from individual output to team outcomes
+- **Agile fundamentals**: The practices themselves — estimation, refinement, retrospectives — and why they exist
+- **Change readiness**: Where is this individual on the change curve? What do they need to move forward?
+- **Voice and contribution**: Helping quieter members find their voice; helping dominant members make space
+
+**Key coaching question**: "What would it look like for you to take more ownership of [area] without waiting to be asked?"
+
+### Coaching Agile Leaders & Managers
+
+Leadership is often the hardest coaching engagement and the highest leverage. Common focus areas:
+
+- **Organisational agility**: Helping leaders see how structure, governance, and culture either enable or impede team effectiveness
+- **Technical debt and quality**: Building understanding of the long-term cost of quality shortcuts and the business case for investment in engineering health
+- **Developing direct reports**: Shifting from managing outputs to developing capability; coaching their own teams rather than directing them
+- **Impediment removal**: Using their authority to clear systemic blockers that teams cannot resolve themselves
+- **Culture and psychological safety**: Modelling the behaviours they want to see; understanding how their actions set the tone
+
+**Key coaching question**: "What would need to be true about how this organisation works for your teams to be able to do their best work?"
+
+---
 
 ## Agile Coaching Anti-Patterns
 

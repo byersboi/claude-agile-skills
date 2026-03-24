@@ -115,6 +115,27 @@ The most reliable structure for giving difficult feedback without triggering def
 
 ---
 
+## The 3:1 Positive Interaction Ratio
+
+Research by John Gottman into team and relationship dynamics found that high-functioning groups maintain a ratio of at least **3 positive interactions for every 1 negative interaction**. Below this threshold, trust erodes and conflict becomes harder to resolve constructively.
+
+In agile teams, "positive interactions" include: recognising good work, expressing genuine curiosity, thanking someone for their contribution, agreeing with a point, and showing interest in a colleague's perspective. "Negative interactions" include: criticism, dismissal, sarcasm, interrupting, and sighing or eye-rolling.
+
+**Why this matters for SMs and coaches**:
+- Teams in conflict often slip into a pattern where negative interactions dominate — which makes it harder to resolve the original conflict and creates new ones
+- The ratio is not about being artificially positive; it is about ensuring the relationship bank account has enough credit to absorb disagreement
+- A team that celebrates small wins, thanks each other explicitly, and acknowledges effort maintains the trust buffer that makes honest challenge possible
+
+**Practical interventions**:
+- Open retrospectives and planning sessions with genuine acknowledgement of what went well — not as a warm-up ritual but as a real investment in the ratio
+- Notice and name positive contributions in the room: "That was a really useful challenge, it changed my thinking"
+- When facilitating conflict conversations, begin by establishing common ground and shared values before moving to the disputed issue
+- Coach team members to separate their critique of an idea from their relationship with the person
+
+**Diagnostic question**: Observe a sprint ceremony. Are interactions mostly positive, neutral, or negative? If you are counting more eye-rolls than thank-yous, the team's conflict resilience is low — and the next disagreement will be harder to navigate.
+
+---
+
 ## Common Conflict Scenarios in Agile Teams
 
 ### PO vs. Development Team (Scope / Estimates)
