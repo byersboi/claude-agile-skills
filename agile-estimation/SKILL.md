@@ -182,3 +182,4 @@ Some teams use a Definition of Ready (DoR) to gate items before they enter Sprin
 
 - **`references/story-splitting-guide.md`** — Detailed patterns and examples for splitting large stories
 - **`references/acceptance-criteria-templates.md`** — Given/When/Then templates for common story types
+- **`skills/bdd-user-stories/SKILL.md`** — Full BDD guide covering Gherkin syntax, scenario writing, the three amigos process, and connecting acceptance criteria directly to automated tests
