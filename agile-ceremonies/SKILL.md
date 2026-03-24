@@ -30,10 +30,45 @@ Ceremonies (also called events or meetings) are the primary inspection-and-adapt
 2. **What** (60–90 min): Team selects items from Product Backlog based on capacity and Sprint Goal; PO clarifies
 3. **How** (remaining time): Developers decompose selected items into tasks ≤ 1 day; create Sprint Backlog
 
+**Capacity Planning**:
+
+Before selecting backlog items, establish the team's actual available capacity for the sprint. Do not assume everyone is 100% available.
+
+**Step 1 — Calculate normal capacity per person**:
+Start with working hours per day, minus time lost to meetings, ceremonies, and non-sprint activities. A common baseline is 6 productive hours per day for a full-time team member in a typical sprint.
+
+**Step 2 — Apply a focus factor**:
+Not all productive hours are available for sprint work. Interruptions, context switching, ad-hoc requests, and general overhead mean the realistic figure is lower. An 80% focus factor is a common starting point — giving 4.8 usable hours per person per day, or approximately 48 hours over a 10-day sprint.
+
+Adjust the focus factor to reflect your team's actual context. A team working in a noisy, interrupt-heavy environment may need 70% or lower. A mature, well-protected team may sustain 85–90%.
+
+**Step 3 — Deduct known capacity draws**:
+
+| Deduction type | Description |
+|---|---|
+| **Spikes** | Technical investigation or research tasks not estimated as story points — deduct the estimated hours directly |
+| **Planned absence** | Leave, training, travel, bank holidays — deduct the actual hours unavailable |
+| **Unplanned absence** | Track retrospectively; use to inform capacity planning in future sprints |
+
+**Step 4 — Express as actual capacity and percentage**:
+Sum each person's remaining hours after deductions. Express as a percentage of normal capacity for easy communication at sprint planning. A team running at 60% capacity should select significantly less work than a team at 90%.
+
+**Example** (illustrative, generic):
+
+| Team member | Normal (hrs) | Spikes | Planned absence | Actual capacity | Capacity % |
+|---|---|---|---|---|---|
+| Person A | 48 | 5 | 8 | 35 | 73% |
+| Person B | 48 | 0 | 16 | 32 | 67% |
+| Person C | 48 | 0 | 0 | 48 | 100% |
+| **Total** | **144** | **5** | **24** | **115** | **80%** |
+
+**Using capacity at sprint planning**: Compare total available hours against the estimated effort for candidate backlog items. If the team uses story points, capacity provides a sanity check — does the total estimated effort feel proportionate to available hours? If the team uses hour-based estimates, map directly.
+
 **Facilitation tips**:
+- Calculate capacity before the planning session, not during it — it slows the meeting
+- Share the capacity summary at the start of the What section so the team has a shared anchor
 - Start with the Sprint Goal, not the backlog list — items should serve the goal
-- Track capacity explicitly (available hours minus meetings, leave, ceremonies)
-- Use a capacity/velocity guide, not a commitment
+- Use capacity as a guide, not a hard ceiling — the team's judgement about what is achievable matters
 - If items can't be broken down sufficiently, they need refinement — don't plan unrefined items
 
 ---
