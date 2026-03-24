@@ -1,6 +1,6 @@
 ---
 name: Product Owner
-description: This skill should be used when the user asks about "product owner", "PO role", "product owner responsibilities", "product backlog management", "backlog prioritisation", "product vision", "product goal", "product owner anti-patterns", "product owner and scrum master", "product owner and stakeholders", "product owner coaching", "value maximisation", "product roadmap agile", "MoSCoW prioritisation", "WSJF", "cost of delay", "impact mapping", "opportunity solution tree", "user research agile", "product discovery", "product owner vs product manager", "empowered product team", "urgent request", "mid-sprint request", "handling interruptions", "urgent backlog item", "sprint disruption", "stakeholder pressure", or is working with, coaching, or acting as a Product Owner.
+description: This skill should be used when the user asks about "product owner", "PO role", "product owner responsibilities", "product backlog management", "backlog prioritisation", "product vision", "product goal", "product owner anti-patterns", "product owner and scrum master", "product owner and stakeholders", "product owner coaching", "value maximisation", "product roadmap agile", "product roadmap", "now next later", "roadmap format", "roadmap vs plan", "what should be on a roadmap", "outcome roadmap", "roadmap anti-patterns", "MoSCoW prioritisation", "WSJF", "cost of delay", "impact mapping", "opportunity solution tree", "user research agile", "product discovery", "product owner vs product manager", "empowered product team", "urgent request", "mid-sprint request", "handling interruptions", "urgent backlog item", "sprint disruption", "stakeholder pressure", or is working with, coaching, or acting as a Product Owner.
 version: 1.0.0
 ---
 
@@ -119,6 +119,87 @@ The PO represents stakeholders to the team and the team to stakeholders. Neither
 - Sprint Review: Primary stakeholder touchpoint — invite, prepare, and facilitate genuine dialogue
 
 **PO cannot be a "yes" person**: Saying yes to every stakeholder request is abdication, not service. The PO's job is to make the hard trade-offs and explain the reasoning.
+
+---
+
+## Product Roadmap
+
+A product roadmap is a high-level visual summary that maps out the vision and direction of a product over time. It communicates what you are building and why — to the team, to stakeholders, and to the organisation.
+
+A roadmap is not a plan. This distinction matters enormously:
+
+| Plan | Roadmap |
+|---|---|
+| Descriptive | Adaptive |
+| Deliverables | Outcomes |
+| A document | A conversation |
+| % complete | Benefit delivered |
+
+**If the roadmap becomes the plan, it's not a roadmap.** A roadmap that commits to specific features on specific dates, holds teams accountable for delivery against those commitments, and is treated as a fixed contract has become a project plan. It loses its core value: the ability to change as the team learns.
+
+### What a Good Roadmap Contains
+
+A product roadmap should communicate five things:
+
+1. **Product vision and strategy** — what the product is, who it serves, and why it exists. This is the foundation. Without a clear vision, the roadmap has no anchor.
+2. **How you're going to do it** — the strategic approach and high-level execution direction
+3. **Alignment with stakeholder and user needs** — how the roadmap connects to what users need and what stakeholders care about; enables communication with both
+4. **When you're going to do it** — a timeline of delivery, expressed as approximate horizons rather than fixed dates
+5. **Problems to solve** — what the team is trying to achieve, framed as outcomes and problems rather than features
+
+### What a Roadmap Is Not
+
+- **Not a feature list** — a roadmap that is just a list of features in order is a backlog, not a roadmap
+- **Not a backlog** — the backlog is the delivery queue; the roadmap is the strategic intent
+- **Not a GANTT chart** — roadmaps do not replace project schedules; they exist at a different level of abstraction
+- **Not a commitment** — a roadmap is not a promise from the team to deliver specific things in a fixed timeframe with a fixed outcome; treating it as one undermines its purpose
+
+### Now / Next / Later Format
+
+The most practical and widely used agile roadmap format. Deliberately avoids fixed dates to keep focus on priorities and outcomes.
+
+| Horizon | What it contains | Level of certainty |
+|---|---|---|
+| **Now** | Work currently in progress or committed for the near term | High — team has clarity and commitment |
+| **Next** | What the team plans to work on after Now | Medium — directionally committed; details may change |
+| **Later** | Longer-term intent; things we know matter but haven't planned | Low — intentionally vague; we don't know enough yet |
+
+The cone widens as it moves further out — uncertainty is a feature, not a bug. A Later column that looks as detailed as Now is a warning sign that the team is over-planning the future.
+
+**Using Now/Next/Later with stakeholders**: The format is also a communication tool. It sets honest expectations: "We know what we're doing now, we have a good sense of what's next, and we have intent for later — but later will change as we learn." This is more honest than a 12-month feature roadmap and ultimately builds more trust.
+
+### The Roadmap Through the Product Lifecycle
+
+The appropriate level of detail and certainty changes as the product matures:
+
+| Stage | Roadmap characteristics |
+|---|---|
+| **Discovery** | Hypothesis-driven; outcomes over features; many unknowns; roadmap is a learning plan |
+| **Alpha** | Emerging clarity; first Now/Next shape; features starting to appear but still outcome-framed |
+| **Beta** | More defined near-term; roadmap evolves based on user feedback; Later still fluid |
+| **Live** | Stable near-term; strategic bets in Later; roadmap reviewed quarterly against outcomes |
+
+### Why Roadmaps Matter
+
+A well-maintained roadmap serves six purposes:
+
+- **Shared purpose** — aligns team, stakeholders, and leadership around a common direction
+- **Transparency** — makes priorities and trade-offs visible to everyone
+- **Feedback loops** — a living roadmap invites challenge and input; a static one shuts conversation down
+- **Organisational learning** — as the roadmap evolves, it captures what the team has learned
+- **Clear priorities** — a guide to what the team is doing now and what it plans to do next
+- **Communication** — simply, it communicates what you are building and why
+
+### Roadmap Anti-Patterns
+
+| Anti-pattern | Problem | Better approach |
+|---|---|---|
+| Feature roadmap | Commits to specific features; no room for learning | Frame as outcomes and problems to solve |
+| Date-driven roadmap | Becomes a commitment; changes are failures | Use Now/Next/Later or quarterly horizons |
+| Roadmap as backlog | Too much detail too far out; false precision | Keep Later deliberately vague |
+| Roadmap owned by leadership | Team has no agency; roadmap is handed down | Co-create with team; PO synthesises inputs from leaders, users, and team |
+| Roadmap never changes | Treats the roadmap as a contract | Review and update at least quarterly; change is a sign of learning |
+| Roadmap with no vision | Features without direction | Always ground the roadmap in a clear product vision |
 
 ---
 
