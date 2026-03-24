@@ -1,6 +1,6 @@
 ---
 name: SM One-to-Ones with Team Members
-description: This skill should be used when the user asks about "1:1s with team members", "one-to-ones with developers", "scrum master 1:1s", "SM one-to-one", "individual conversations with team members", "1:1 agenda scrum master", "coaching individual team members", "1:1 with developer", "1:1 with team member", "individual check-ins", "pastoral care scrum master", "confidentiality 1:1", "1:1 frequency", "what to talk about in 1:1", "SM individual coaching", "team member 1:1", "1:1 scrum master role", "difficult 1:1", "1:1 structure", "holding space for individuals", or is a scrum master seeking to build individual relationships with team members through regular one-to-one conversations.
+description: This skill should be used when the user asks about "1:1s with team members", "one-to-ones with developers", "scrum master 1:1s", "SM one-to-one", "individual conversations with team members", "1:1 agenda scrum master", "coaching individual team members", "1:1 with developer", "1:1 with team member", "individual check-ins", "pastoral care scrum master", "confidentiality 1:1", "1:1 frequency", "what to talk about in 1:1", "SM individual coaching", "team member 1:1", "1:1 scrum master role", "difficult 1:1", "1:1 structure", "holding space for individuals", "1:1 with manager", "1:1 with product owner", "1:1 with stakeholder", "SM stakeholder 1:1s", "questions for manager 1:1", "questions for product owner 1:1", "scrum master relationship with manager", or is a scrum master seeking to build individual relationships with team members or stakeholders through regular one-to-one conversations.
 version: 1.0.0
 ---
 
@@ -134,6 +134,75 @@ This is the most important and most commonly mishandled aspect of SM 1:1s.
 **The person who says "I'm fine"**: May genuinely be fine. Or may not yet trust the relationship. Don't push prematurely. Keep showing up consistently. Over time, "I'm fine" becomes something more.
 
 **The team member who wants to talk about leaving**: Listen without panic. Ask what's driving it. Your job is not to retain them at all costs — it's to help them think clearly. Sometimes the right thing is to leave. Sometimes what they need is a change within the team. Either way, a thoughtful conversation is more useful than reassurance.
+
+## 1:1s with Stakeholders Outside the Team
+
+The Scrum Master's 1:1 relationships are not limited to team members. Regular individual conversations with the line manager, the Product Owner, and leads from other teams are essential to the SM's effectiveness — they provide context the team can't give you, and they build the relationships needed to remove systemic impediments.
+
+These conversations have a different character to team member 1:1s. They are more lateral — the SM is not coaching downward; they are building mutual understanding and alignment with people who have their own accountabilities and pressures.
+
+### 1:1s with Your Line Manager
+
+The SM's manager often holds organisational context, strategic direction, and authority that the SM needs to do their job. This relationship needs to be actively maintained.
+
+**What to cover**:
+- How the team is performing overall — not individual detail, but team-level signals
+- Impediments that require management authority to resolve
+- Your own development — coaching you're seeking, skills you're building
+- Concerns about team direction or organisational decisions that affect the team
+- Alignment on what you're being asked to do vs. what you believe will help the team most
+
+**Useful questions for manager 1:1s**:
+- "What are the biggest concerns you have about this team right now?"
+- "Is there anything you're hearing about the team from other leaders that I should know about?"
+- "What would success look like for this team in the next quarter, from your perspective?"
+- "Is there anything I'm doing that's getting in my own way?"
+- "What's the one impediment I could remove that would have the biggest impact on the organisation?"
+- "How can I better support you in understanding what the team needs?"
+
+**What to protect**: Do not share individual team member information or 1:1 content. Maintain the boundary clearly. If your manager asks for information about specific individuals, explain your role and why that boundary exists. A manager who understands servant leadership will respect it; one who doesn't is an impediment to investigate.
+
+### 1:1s with the Product Owner
+
+The SM's relationship with the PO is one of the most important in the Scrum system. These two roles need to work in close partnership — and regular 1:1 conversations are often where the real alignment happens.
+
+**What to cover**:
+- How the PO is finding their relationship with the team
+- Backlog health — refinement happening, items getting ready, Product Goal clarity
+- Stakeholder pressures the PO is navigating
+- Areas where the SM can coach the team to better support the PO
+- Any concerns about team dynamics from the PO's perspective
+
+**Useful questions for PO 1:1s**:
+- "How confident are you that the team understands what you need from this sprint?"
+- "What's the most frustrating thing about working with the team right now?"
+- "Is there anything you wish the team understood better about the stakeholder pressures you're under?"
+- "How useful are our refinement sessions for you — are you getting what you need from them?"
+- "What's one thing I could do to make your job easier?"
+- "Where do you feel most uncertain about backlog priorities — what would help you get more clarity?"
+
+**What to watch for**: A PO who describes the team as "not delivering what I asked for" is often describing a communication or refinement gap rather than a performance problem. A PO who says "the team keeps pushing back" may have unrealistic expectations — or may have a team that needs coaching on constructive challenge. Both are SM focus areas.
+
+### 1:1s with Other Team Leads and Dependency Teams
+
+Cross-team dependencies are one of the most common sources of impediments. Regular 1:1s with the leads of teams your team depends on (or teams that depend on you) maintain the relationships that make dependency management possible.
+
+**What to cover**:
+- Current and upcoming dependencies — what each team needs from the other
+- Shared ceremonies or touchpoints — are they working?
+- Any friction in how the teams collaborate
+- Forward visibility — what's coming in future sprints that the other team should know about
+
+**Useful questions for cross-team 1:1s**:
+- "Are there things our team is doing that make your team's work harder?"
+- "What's the earliest you need to know about work coming from us so you can plan for it?"
+- "Is there anything in how we're coordinating that you'd change?"
+- "What commitments have we made that you're not confident we'll meet?"
+- "How would you describe the working relationship between our teams to someone outside?"
+
+**When this is most valuable**: Before a sprint where dependencies are high; when a team relationship has recently been strained; when an impediment has repeatedly involved the same external team.
+
+---
 
 ## Common Failure Modes
 

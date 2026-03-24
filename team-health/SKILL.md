@@ -159,6 +159,60 @@ If leadership asks for health data:
 - Never share anything that could identify an individual's response.
 - Be explicit with the team about what you are and are not sharing upward.
 
+## Observation-Based Health Assessment
+
+Surveys measure what people are willing to report. Observation measures what is actually happening. An SM who only uses surveys will miss health signals that are visible in behaviour but not in self-reported data.
+
+Use ceremony observation as a structured health diagnostic — not as surveillance, but as a professional reading of team dynamics that informs where to coach next.
+
+### What to Observe in Ceremonies
+
+**Professionalism and presence**:
+- Do team members arrive on time and stay engaged, or drift in late and check phones?
+- Is attention present in ceremonies, or are people half-attending?
+- Do team members follow through on commitments made in planning and standups?
+
+**Morale and energy**:
+- What is the energy level in the room — engaged, flat, or visibly strained?
+- Are there signs of humour, lightness, and enjoyment alongside the work?
+- Are people protective of each other, or do small tensions surface in comments and reactions?
+
+**Collaboration signals**:
+- Do team members help each other without being asked?
+- Is knowledge shared freely, or hoarded by individuals?
+- When someone is stuck, does the team respond — or wait for the SM to act?
+- Are retro action items genuinely collective, or always assigned to the same one or two people?
+
+**Ownership and initiative**:
+- Does the team self-organise in planning — or wait to be told what to pick up?
+- Are impediments raised proactively, or only when they've already caused a delay?
+- Does the team challenge the backlog — pushing back on unclear items, asking why?
+- Do team members follow through without reminders?
+
+**Communication quality**:
+- Are standup updates meaningful and aimed at the team, or a rote recitation for the SM?
+- Does the team have direct conversations with each other, or route everything through the SM or PO?
+- In conflict, do team members engage constructively or go quiet?
+
+### Reading the Observation Picture
+
+Combine your observations with the survey data and 1:1 signals to get a rounded picture:
+
+| What you observe | What it may indicate |
+|---|---|
+| Late arrivals, phones out, low eye contact | Disengagement or low respect for ceremonies — worth exploring |
+| Team members talking over each other | High energy, possibly; or unresolved dominance dynamic |
+| Silence in response to "any blockers?" | Low psychological safety or habituation — blockers exist but aren't raised |
+| Strong peer-to-peer conversation without SM involvement | Self-organisation is healthy — reduce your facilitation footprint |
+| Same person always answering for the team | Others are deferring — healthy deference or suppressed voices? |
+| Laughter and banter alongside the work | Trust is present; use it |
+| Post-ceremony energy flat, people leaving immediately | Low investment in the ceremony — review purpose and format |
+| Team members helping each other unprompted | Collaboration is intrinsic, not SM-driven — a strong health signal |
+
+**Observation vs. interpretation**: Describe what you see before drawing conclusions. "Three team members checked their phones during planning" is an observation. "The team is disengaged" is an interpretation. Both matter — but keep them separate. The interpretation is a hypothesis to test in a 1:1 or by creating a space in a retro, not a fact to act on directly.
+
+---
+
 ## Health Check Formats
 
 **Spotify Squad Health Check**: Teams RAG-rate a set of dimensions (Easy to Release, Suitable Process, Tech Quality, Value, Speed, Mission, Fun, Learning, Support). A visual output — green/amber/red across dimensions — makes trends immediately readable. Works well for periodic deep-dives (quarterly) alongside a lighter sprint survey.
