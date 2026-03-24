@@ -170,3 +170,47 @@ If leadership asks for health data:
 **Team health radar**: Score each dimension on a radar chart. Provides a visual representation of relative strengths and weaknesses. Useful for sharing with the team and for retrospective facilitation — the shape of the radar often prompts useful conversation.
 
 **Choosing a format**: The best format is the one the team will sustain. A sophisticated model that the team stops engaging with after three sprints is worse than a simple pulse they complete honestly every sprint. Start simple; add complexity only if the team asks for it.
+
+## Example Sprint Survey
+
+The following is an illustrative 6–8 question sprint health survey. All questions use a 1–5 Likert scale for consistency and trend tracking. Adapt to your team's context.
+
+**Preamble** (shown at the top of the survey):
+> This survey focuses on your well-being, collaboration, and agile effectiveness during the latest sprint. Responses are anonymous. Insights will help identify areas for improvement in future sprints.
+
+**Core questions**:
+
+| # | Question | Scale anchors |
+|---|---|---|
+| 1 | Overall, how happy were you during this sprint? | 1 = Very unhappy → 5 = Extremely happy |
+| 2 | Did you feel heard and valued in team discussions? | 1 = No, never → 5 = Yes, always |
+| 3 | How stressed did you feel during this sprint? | 1 = No stress → 5 = Extremely stressed |
+| 4 | How manageable was your workload this sprint? | 1 = Not enough work → 5 = Overwhelming |
+| 5 | How well did the team collaborate this sprint? | 1 = Very poorly → 5 = Extremely well |
+| 6 | How effective was the sprint compared to what was planned? | 1 = Very poor → 5 = Extremely effective |
+
+**Recommended additions** to close coverage gaps:
+
+| # | Question | Scale anchors | Dimension covered |
+|---|---|---|---|
+| 7 | I had clarity on what the team needed to achieve this sprint. | 1 = No clarity → 5 = Completely clear | Clarity |
+| 8 | I feel the team is improving how it works. | 1 = Not at all → 5 = Definitely | Learning & improvement |
+
+**Dimensions covered by this survey**:
+
+| Dimension | Covered by |
+|---|---|
+| Morale & energy | Q1 |
+| Psychological safety | Q2 |
+| Sustainability | Q3 |
+| Workload balance | Q4 |
+| Collaboration | Q5 |
+| Delivery confidence | Q6 |
+| Clarity | Q7 |
+| Learning & improvement | Q8 |
+| Quality | Not covered — add if technical health is a concern |
+| Stakeholder relationships | Not covered — add for teams with high external dependency |
+
+**Note on Q4 (workload)**: This question is bidirectional — both extremes (1 = not enough work, 5 = overwhelming) signal a problem. A score of 3 is the healthy midpoint. When reading results, a team average of 2 and a team average of 4 both warrant attention, unlike all other questions where higher is consistently better. Flag this interpretation when sharing results with the team.
+
+**Keeping it sustainable**: 6 questions is the recommended minimum; 8 covers all core dimensions. Resist adding more — every additional question reduces completion quality. If a topic needs exploring in depth, use the retrospective rather than the survey.
