@@ -1,6 +1,6 @@
 ---
 name: Product Owner
-description: This skill should be used when the user asks about "product owner", "PO role", "product owner responsibilities", "product backlog management", "backlog prioritisation", "product vision", "product goal", "product owner anti-patterns", "product owner and scrum master", "product owner and stakeholders", "product owner coaching", "value maximisation", "product roadmap agile", "MoSCoW prioritisation", "WSJF", "cost of delay", "impact mapping", "opportunity solution tree", "user research agile", "product discovery", "product owner vs product manager", "empowered product team", or is working with, coaching, or acting as a Product Owner.
+description: This skill should be used when the user asks about "product owner", "PO role", "product owner responsibilities", "product backlog management", "backlog prioritisation", "product vision", "product goal", "product owner anti-patterns", "product owner and scrum master", "product owner and stakeholders", "product owner coaching", "value maximisation", "product roadmap agile", "MoSCoW prioritisation", "WSJF", "cost of delay", "impact mapping", "opportunity solution tree", "user research agile", "product discovery", "product owner vs product manager", "empowered product team", "urgent request", "mid-sprint request", "handling interruptions", "urgent backlog item", "sprint disruption", "stakeholder pressure", or is working with, coaching, or acting as a Product Owner.
 version: 1.0.0
 ---
 
@@ -163,6 +163,46 @@ These roles are often confused and sometimes combined:
 | Primary output | Ordered Product Backlog | Strategy, roadmap, go-to-market |
 
 In many organisations, one person holds both roles. In larger organisations, the PM sets strategy and the PO translates it into a backlog. Neither is a proxy for a requirements committee.
+
+---
+
+## Handling Urgent Requests
+
+One of the most common and disruptive challenges for a Product Owner is the mid-sprint urgent request — a stakeholder insisting something must be added to the current sprint immediately. Handled poorly, urgent requests erode sprint goals, demoralise teams, and reward the loudest voice rather than the highest value.
+
+The PO's job is not to say yes or no reflexively — it is to evaluate the request objectively and make a transparent, data-driven decision.
+
+**Step 1 — Assess Sprint Goal alignment**: Does this request directly support the current Sprint Goal? If yes, explore whether it can be accommodated within existing capacity. If no, that alone is grounds to defer unless the case for urgency is exceptionally strong.
+
+**Step 2 — Evaluate using the Impact Matrix**:
+
+Plot the request against two dimensions: **Financial Impact** (revenue at risk, cost of inaction, contractual exposure) and **Reputational Impact** (customer trust, brand, regulatory standing).
+
+|  | **High Reputational Impact** | **Low Reputational Impact** |
+|---|---|---|
+| **High Financial Impact** | Act immediately — escalate and add to sprint | Strong case for urgency — evaluate capacity carefully |
+| **Low Financial Impact** | Evaluate carefully — emotion may be driving urgency | Defer to backlog — not urgent |
+
+**Quantify before deciding**: Ask specific questions to move from opinion to evidence:
+- "How much revenue is at risk, and over what timeframe?"
+- "Which customers are affected, and what is the contractual exposure?"
+- "What is the reputational impact if we address this in the next sprint vs. now?"
+
+If the requester cannot answer these questions, the urgency is likely perceived rather than real.
+
+**Step 3 — Consult the team**: Before committing, speak to the developers. What is the realistic effort? What would need to be removed from the sprint to accommodate it? The team's assessment of disruption cost is essential input — the PO decides, but not in isolation.
+
+**Step 4 — Make a transparent decision**:
+- If adding to the sprint: remove an equivalent item from the Sprint Backlog (do not simply add on top), update the Sprint Goal if needed, and communicate the trade-off to all stakeholders
+- If deferring: add to the Product Backlog with appropriate priority, set a clear expectation of when it will be addressed, and explain the reasoning
+
+**What to avoid**:
+- Accepting urgent requests based on seniority of the requester rather than evidence of impact
+- Adding items to the sprint without removing anything (scope creep disguised as urgency)
+- Promising "we'll fit it in" without team input on capacity
+- Failing to communicate changes to the sprint with the team and stakeholders
+
+A PO who manages urgent requests well builds trust with both the team (predictable sprint goals) and stakeholders (transparent, reasoned decisions).
 
 ---
 

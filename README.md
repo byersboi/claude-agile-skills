@@ -36,6 +36,7 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 | `sm-one-to-ones` | 1:1 purpose and structure, agenda ownership, coaching vs pastoral care, confidentiality, team member types |
 | `team-health` | Health dimensions, sprint surveys, triangulating signals, reading trends, acting on data, health check formats |
 | `monte-carlo-forecasting` | Probabilistic forecasting, simulation mechanics, confidence thresholds, communicating results, throughput-based forecasting |
+| `engineering-standards` | Dependency governance, branch strategy, code review, security scanning, code quality, repository management |
 
 ## Installation
 

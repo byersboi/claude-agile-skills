@@ -1,6 +1,6 @@
 ---
 name: Agile Ceremonies
-description: This skill should be used when the user asks about "agile ceremonies", "agile meetings", "facilitating ceremonies", "sprint planning facilitation", "retrospective facilitation", "daily standup facilitation", "sprint review facilitation", "backlog refinement", "backlog grooming", "story mapping", "user story workshop", "definition of ready", "working agreements", "team charter", "inception workshop", "kickoff workshop", "release planning", "PI planning facilitation", "facilitation techniques agile", "diverge converge", "liberating structures", or needs help planning or running any agile ceremony or workshop.
+description: This skill should be used when the user asks about "agile ceremonies", "agile meetings", "facilitating ceremonies", "sprint planning facilitation", "retrospective facilitation", "daily standup facilitation", "sprint review facilitation", "backlog refinement", "backlog grooming", "story mapping", "user story workshop", "definition of ready", "definition of done", "DoR", "DoD", "acceptance criteria", "Gherkin", "Given When Then", "working agreements", "team charter", "inception workshop", "kickoff workshop", "release planning", "PI planning facilitation", "facilitation techniques agile", "diverge converge", "liberating structures", "async standup", "walking standup", "consolidated demo", "cross-team demo", "capacity planning sprint", or needs help planning or running any agile ceremony or workshop.
 version: 1.0.0
 ---
 
@@ -84,6 +84,25 @@ Sum each person's remaining hours after deductions. Express as a percentage of n
 - Walk the board: Review each in-progress item on the Sprint Backlog; discuss blockers
 - Sprint Goal focus: "What did we do yesterday to advance the Sprint Goal? What will we do today?"
 
+**Structure** (total 15 mins):
+
+| Segment | Time | Purpose |
+|---|---|---|
+| Kickoff | 2–3 mins | Brief focus check; surface energy or context needed |
+| Team updates | ~10 mins | Each person: 60–90 seconds maximum |
+| Blockers | 2–3 mins | Name blockers; assign owner; take offline immediately |
+| Close | 1 min | Any quick announcements; confirm follow-ups |
+
+**Standup variations** — rotate based on team context:
+
+| Variation | How it works | Best for |
+|---|---|---|
+| **Walking standup** | Team walks between locations while talking | Co-located teams; breaks up desk-bound routine |
+| **Kanban board style** | Talk through each in-progress card left to right | Teams with high WIP visibility needs |
+| **Async standup** | Written updates in Slack/Teams using a bot (e.g. Geekbot, Standuply) before the standup time | Remote teams across time zones; reduces meeting fatigue |
+
+**Blocker handling**: When a blocker is named, immediately assign an owner and take it offline. Do not try to solve blockers during the standup — it derails the timebox and excludes uninvolved team members.
+
 **Facilitation tips**:
 - Developers run this event — SM facilitates only when needed
 - Start at the same time and place daily
@@ -133,6 +152,23 @@ Sum each person's remaining hours after deductions. Express as a percentage of n
 - Capture feedback visibly; make clear what will be added to the backlog
 - If nothing was completed, still run the review — transparency about scope and impediments is valuable
 
+**Consolidated cross-team sprint demo** (for scaled contexts with multiple squads):
+
+When multiple teams are delivering related products, individual team reviews can create silos — teams don't know what others have shipped, and stakeholders attend multiple disconnected sessions. A consolidated sprint demo addresses this.
+
+**Format**:
+- Single session every sprint featuring customer-impacting features from all squads
+- Broadcast style — presenters demo, audience observes; questions via chat or follow-up (not interruptions)
+- Scope limited to completed, release-ready features only — no technical debt, no work-in-progress
+- Demos run on deployed environments; no slides or mockups
+- Rotating chair (different team leads the session each sprint)
+
+**Pre-demo preparation**: Each squad's PO or lead confirms their demo content in advance with the session chair. Only features that are complete and can be demonstrated on a live environment are included.
+
+**Who benefits**: Marketing (understand what's shipping), Customer Success (prepare for customer questions), other squads (awareness of cross-team dependencies and progress), leadership (real visibility without status reports).
+
+**What to include**: Completed features, before/after comparisons where relevant, key metrics if available. Optionally: note any significant sprint disruptions (urgent requests that changed scope) so the audience understands what was deprioritised and why.
+
 ---
 
 ## Sprint Retrospective
@@ -149,6 +185,70 @@ See **`references/retrospective-formats.md`** in the `scrum` skill for detailed 
 3. **Generate insights** (15–20 min): Discussion; pattern identification
 4. **Decide on actions** (15–20 min): Select ≤3 improvements; make them specific and owned
 5. **Close** (5 min): Retro on the retro; appreciation
+
+---
+
+## Definition of Ready & Definition of Done
+
+### Definition of Ready (DoR)
+
+The DoR is a checklist that ensures a backlog item is genuinely ready to enter Sprint Planning. The team defines it; the PO ensures items meet it before refinement is complete.
+
+**DoR checklist** (adapt to your context):
+
+- [ ] Written as a user story or equivalent (clear who benefits and why)
+- [ ] Acceptance criteria defined — ideally in Given/When/Then (Gherkin) format
+- [ ] Story is small enough to complete within the sprint (no item larger than half the sprint)
+- [ ] Dependencies identified and either resolved or explicitly accepted
+- [ ] Business value is understood and can be articulated
+- [ ] Team has estimated it (no outstanding "we need to investigate first" blockers)
+- [ ] UI/UX designs attached or confirmed not required
+- [ ] Technical feasibility confirmed — no open architectural unknowns
+- [ ] Data, API, or integration requirements identified
+- [ ] Test cases or test approach defined
+
+**Gherkin format for acceptance criteria**:
+```
+Given [a context or precondition]
+When [an action is taken]
+Then [an expected outcome occurs]
+```
+
+Example:
+```
+Given a user is logged in and viewing their order history
+When they click on a completed order
+Then they see the order details including items, date, and total cost
+```
+
+**Caution**: Apply the DoR as a conversation guide, not a bureaucratic gate. If items repeatedly fail it, that points to an upstream problem — refinement not happening early enough, or PO not engaging with the team before planning.
+
+---
+
+### Definition of Done (DoD)
+
+The DoD is the team's shared commitment to quality. An item is only Done when every criterion is met. It applies to every item, every sprint — no exceptions without explicit team agreement.
+
+**DoD checklist** (adapt to your context):
+
+- [ ] Code complete and merged to the agreed branch
+- [ ] Peer code review completed (at least one reviewer)
+- [ ] Unit tests written and passing
+- [ ] Functional testing completed against acceptance criteria
+- [ ] No critical or high-severity bugs introduced
+- [ ] UI/UX validated against designs (where applicable)
+- [ ] API contracts met and tested (where applicable)
+- [ ] Performance benchmarks met (where applicable)
+- [ ] Security requirements addressed (where applicable)
+- [ ] Documentation updated (user-facing and/or technical)
+- [ ] Demonstrated to or accepted by the Product Owner
+- [ ] Deployed to staging (or production, depending on team's release cadence)
+
+**Team confidence check**: Before marking an item Done, the team should be able to say with confidence: "We would be comfortable releasing this to users right now." If not, it is not Done.
+
+**DoD vs. acceptance criteria**: Acceptance criteria are specific to one story (does this feature work as specified?). The DoD applies to every story (does every story meet our quality bar?). Both must be met.
+
+**Evolving the DoD**: Review the DoD in retrospectives. As the team matures, the bar should rise — adding automated tests, performance gates, accessibility checks. The DoD should reflect where the team wants to be, not just where they are.
 
 ---
 

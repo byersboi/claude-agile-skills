@@ -1,6 +1,6 @@
 ---
 name: Release Management
-description: This skill should be used when the user asks about "release management", "release planning", "go/no-go decision", "release readiness", "hotfix process", "feature flags", "dark launch", "deployment coordination", "release notes", "DORA metrics", "deployment frequency", "change failure rate", "release checklist", "release communication", "rollback planning", "release train", "continuous delivery", "release cadence", "release governance", "release retrospective", "release owner", "release sign-off", "progressive delivery", "canary release", "release pipeline", or is managing or coordinating software releases in an agile context.
+description: This skill should be used when the user asks about "release management", "release planning", "go/no-go decision", "release readiness", "hotfix process", "feature flags", "dark launch", "deployment coordination", "release notes", "DORA metrics", "deployment frequency", "change failure rate", "release checklist", "release communication", "rollback planning", "release train", "continuous delivery", "release cadence", "release governance", "release retrospective", "release owner", "release sign-off", "progressive delivery", "canary release", "release pipeline", "production incident", "incident classification", "incident priority", "P0", "P1", "P2", "incident triage", "incident severity", "post-incident review", or is managing or coordinating software releases in an agile context.
 version: 1.0.0
 ---
 
@@ -110,6 +110,43 @@ Feature flags decouple deployment from release — code ships to production but 
 - Link to full technical changelog for those who need it
 
 **External / customer communication**: Co-ordinate with product marketing for significant releases. Avoid technical jargon. Focus on benefit delivered, not feature shipped.
+
+## Production Incident Classification
+
+Before a hotfix can be scoped and deployed, the incident must be classified. Severity determines response urgency, who is involved, and what the deployment path looks like. Without a shared classification framework, every incident feels like a P0 and teams burn out.
+
+**Priority levels**:
+
+| Priority | Name | Definition |
+|---|---|---|
+| **P0** | Critical Outage | Full system or core functionality down; no workaround; all users affected |
+| **P1** | Major Degradation | Core functionality severely impaired for a significant portion of users; limited workaround |
+| **P2** | Minor Degradation | Core functionality impaired for a small number of users, OR non-core functionality down for many users |
+| **P3** | Normal Bug | Minor defect or cosmetic issue; no immediate business risk; workaround available |
+| **P4** | Inquiry / No Issue | False alarm, known issue already tracked, documentation question |
+
+**Triage questions** — answer these to assign the correct priority:
+
+| Question | P0 | P1 | P2 | P3/P4 |
+|---|---|---|---|---|
+| Scope of user impact | All users | Significant % | Small % or non-core | Individual / negligible |
+| Workaround available? | No | Limited | Yes | Yes |
+| System integrity at risk? | Yes | Possibly | No | No |
+| Revenue/SLA exposure? | Immediate and severe | Significant | Moderate | Low or none |
+
+**Response windows by priority**:
+
+| Priority | Response target | Deployment path |
+|---|---|---|
+| P0 | Immediate — all hands | Emergency hotfix; bypass normal cadence |
+| P1 | Within 1–2 hours | Hotfix; expedited review and approval |
+| P2 | Same business day | Expedited or next scheduled release |
+| P3 | Next sprint | Normal sprint cycle |
+| P4 | Backlog / no action | Add to backlog or close as no-issue |
+
+**Escalation**: P0 and P1 incidents require immediate notification to the release owner, engineering lead, and relevant stakeholders. Do not wait for the next standup.
+
+**Post-incident**: Every P0 and P1 requires a written post-incident review within 24–48 hours. Cover: what happened, timeline, root cause, immediate fix, and longer-term remediation to prevent recurrence. Blameless — focus on the system, not individuals.
 
 ## Hotfix & Emergency Release Process
 
