@@ -38,11 +38,11 @@ This skill links to:
 - Time pressure does not justify skipping team refinement of AI-generated goals. A few minutes of collaborative shaping prevents an entire Sprint of misalignment.
 
 ### Sprint Review
-- Do not automate Sprint Review slide generation from Jira data. If the team spends 2 hours preparing presentations, the underlying problem is treating the Review as presentation theatre rather than stakeholder collaboration. Fix the format (show working software, invite dialogue) before considering AI assistance.
+- Do not automate Sprint Review slide generation from Jira data. If the team spends significant time preparing presentations, the underlying problem is treating the Review as presentation theatre rather than stakeholder collaboration. Fix the format (show working software, invite dialogue) before considering AI assistance.
 - AI-generated reports showing velocity, story points, and feature delivery statistics address the wrong audience need when stakeholders say Reviews feel "too technical."
 
 ### Sprint Retrospective
-- AI can identify patterns across multiple retrospectives (recurring themes, word frequency). However, pattern recognition is not causal diagnosis. "Communication breakdown" appearing in 68% of retros is a surface observation — the team must determine the root cause (which may be unclear decision authority, not communication format).
+- AI can identify patterns across multiple retrospectives (recurring themes, word frequency). However, pattern recognition is not causal diagnosis. "Communication breakdown" appearing frequently across retros is a surface observation — the team must determine the root cause (which may be unclear decision authority, not communication format).
 - AI-generated retrospective designs should be reviewed for team-specific context: psychological safety level, recent conflicts, individual learning styles, and actual time capacity. A well-structured generic design may still miss critical team dynamics.
 - Retrospective transcripts contain sensitive content (interpersonal conflicts, performance concerns, leadership failures). Processing these through AI requires explicit individual consent, not majority agreement. One objection must be respected.
 
@@ -58,7 +58,7 @@ This skill links to:
 - AI-generated "scores" (Release Credibility Score, Team Efficiency Score) must have explainable, reproducible methodology. If the formula cannot be defended under questioning, present the underlying raw metrics instead.
 
 ### Contextualising AI-Flagged Trends
-- AI reports relative changes ("300% increase in login issues") without absolute context. A 300% increase from 2 to 8 tickets, when user signups grew 8x (50 to 400), means the failure rate actually halved (4% to 2%). Always check absolute numbers and proportional context before acting on AI-flagged trends.
+- AI reports relative changes ("500% increase in timeout errors") without absolute context. A 500% increase from 3 to 18 tickets, when active users grew 10x (200 to 2,000), means the error rate actually dropped (1.5% to 0.9%). Always check absolute numbers and proportional context before acting on AI-flagged trends.
 
 ### Activity vs Outcome Metrics
 - AI dashboards tracking individual commit frequency, lines of code, pull requests merged, and time in meetings measure **activity, not value**. These create perverse incentives: gaming metrics over collaboration, optimising for the dashboard over customer outcomes.
@@ -76,7 +76,7 @@ This skill links to:
 - AI analysis of historical customer feedback identifies past patterns, not current needs. Before committing AI-recommended features to a roadmap, validate with current customers. Use a discovery sprint to test assumptions about actual needs versus historical patterns.
 
 ### AI-Generated Test Cards and Hypotheses
-- When AI extracts testable hypotheses from PRDs, have a senior Developer review for technical accuracy before sharing with the Product Owner. AI may hallucinate specific technical claims (e.g., inventing a "60% improvement" figure not in the source document).
+- When AI extracts testable hypotheses from PRDs, have a senior Developer review for technical accuracy before sharing with the Product Owner. AI may hallucinate specific technical claims (e.g., inventing a "45% latency reduction" figure not in the source document).
 - The optimal workflow: AI generates initial extraction (fast), human cross-references every claim back to source document (catches hallucinations), senior Developer validates technical accuracy (catches misinterpretation). Reinvest saved time in higher-value experiment design.
 
 ### AI Citations and Research
