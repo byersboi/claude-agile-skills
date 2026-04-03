@@ -1,144 +1,144 @@
 ---
 name: AI-Augmented Agile
-description: This skill should be used when the user asks about "AI in agile", "using ChatGPT for scrum", "AI-assisted retrospectives", "AI metrics", "AI sprint planning", "AI coaching", "AI ethics in teams", "AI surveillance", "AI performance tracking", "prompt engineering for agile", "AI-generated reports", "deep research for agile", "AI backlog analysis", "AI estimation", "custom GPT for teams", "AI tool selection", "AI transparency", "AI hallucination risk", "AI verification", "AI-augmented coaching", or wants guidance on integrating AI tools into agile practices ethically and effectively.
-version: 1.0.0
+description: This skill should be used when the user asks about "AI tools in agile workflows", "responsible AI adoption in teams", "AI-assisted facilitation", "AI and team metrics", "AI in sprint ceremonies", "AI coaching tools", "AI data ethics", "team surveillance tools", "AI developer tracking", "prompt crafting for agile work", "automated reporting risks", "AI research tools", "AI backlog tools", "AI sizing tools", "building custom GPTs for teams", "choosing AI platforms", "AI output trust", "hallucination mitigation", "AI output validation", "AI-supported coaching", or wants guidance on adopting AI tools within agile teams responsibly and effectively.
+version: 1.1.0
 ---
 
-# AI-Augmented Agile Practices
+# Responsible AI Adoption in Agile Teams
 
-Integrating AI tools (ChatGPT, Claude, Copilot, Gemini, custom GPTs) into agile practice creates significant opportunity and significant risk. The core principle: **AI amplifies human insight; it does not replace it.** When the relationship inverts — humans validating AI outputs rather than AI assisting human judgement — the practice has failed.
+When teams adopt AI tools (large language models, coding assistants, custom GPTs, research agents) alongside agile practices, both the opportunities and the risks are substantial. The guiding principle: **AI should strengthen human capability and judgement, not substitute for it.** Once practitioners spend more time managing AI workflows than engaging directly with teams and data, the tool has become the master.
 
 This skill links to:
-- **`scrum`** — Sprint events where AI may be applied
-- **`agile-metrics`** — Metrics AI can generate or misinterpret
-- **`agile-coach`** — Coaching stance when AI is involved
-- **`facilitation`** — Facilitating sessions with AI-generated inputs
-- **`continuous-improvement`** — Using AI in improvement cycles
+- **`scrum`** — Ceremonies and artifacts where AI tools may be introduced
+- **`agile-metrics`** — Measurement practices AI can support or distort
+- **`agile-coach`** — Coaching posture when AI-generated insights are involved
+- **`facilitation`** — Running sessions that incorporate AI-produced inputs
+- **`continuous-improvement`** — Applying improvement cycles to AI tool usage itself
 
 ---
 
-## Core Principles
+## Guiding Principles
 
-1. **Human judgement over AI output** — AI produces hypotheses, not conclusions. Every AI output requires human interpretation, contextualisation, and validation before acting on it.
+1. **Practitioner expertise comes first** — AI generates starting material, not finished conclusions. Every AI-produced artifact requires contextualisation, critical review, and professional judgement before it informs decisions.
 
-2. **Verify before presenting** — Never present AI-generated data, metrics, or analysis to stakeholders without independent verification. If a calculation cannot be reproduced or explained, do not use it.
+2. **Independent verification is mandatory** — Never share AI-produced calculations, forecasts, or analyses with decision-makers without reproducing or cross-checking them through a separate method. Unexplainable outputs must not be presented.
 
-3. **Transparency about AI use** — Teams and stakeholders must know when AI was involved in producing analysis, recommendations, or artifacts. Hidden AI use erodes trust.
+3. **Openness about AI involvement** — Stakeholders and team members deserve to know when AI contributed to producing reports, recommendations, or designs. Concealing AI involvement undermines the trust that agile depends on.
 
-4. **Consent before processing** — Team data (retrospective notes, Slack messages, code commits) must not be processed by AI without explicit, informed consent from every individual. Company ownership of data does not equal consent for AI analysis.
+4. **Informed consent is non-negotiable** — Processing team communications, ceremony notes, or individual work patterns through AI requires informed, individual agreement from every person whose data is involved. Organisational data ownership is not a substitute for personal consent.
 
-5. **AI assists the process, not replaces it** — The value of agile ceremonies comes from human dialogue, shared understanding, and collective ownership. AI that pre-digests conclusions eliminates the collaborative sense-making that creates buy-in.
+5. **Preserve the human dialogue** — Agile ceremonies derive their power from shared conversation, collective sense-making, and group ownership of decisions. When AI pre-processes raw observations into packaged conclusions, the dialogue that builds understanding and commitment is lost.
 
 ---
 
-## AI in Scrum Ceremonies
+## AI Across Scrum Ceremonies
 
 ### Sprint Planning
-- AI-drafted Sprint Goals serve as starting points, not final outputs. The team must refine and commit to the goal together — ownership requires participation, not passive acceptance.
-- Time pressure does not justify skipping team refinement of AI-generated goals. A few minutes of collaborative shaping prevents an entire Sprint of misalignment.
+- When AI proposes a Sprint Goal based on backlog items, treat it as a conversation starter. The entire team must discuss, reshape, and own the goal collectively — genuine commitment cannot come from passively accepting an AI suggestion, regardless of time pressure.
+- Investing a few minutes in collaborative goal-shaping avoids days of misaligned work within the Sprint.
 
 ### Sprint Review
-- Do not automate Sprint Review slide generation from Jira data. If the team spends significant time preparing presentations, the underlying problem is treating the Review as presentation theatre rather than stakeholder collaboration. Fix the format (show working software, invite dialogue) before considering AI assistance.
-- AI-generated reports showing velocity, story points, and feature delivery statistics address the wrong audience need when stakeholders say Reviews feel "too technical."
+- Automating presentation decks from project tracking tools misses the point when stakeholders report that Reviews lack relevance. The root issue is typically a format problem — the ceremony has become a broadcast instead of a collaborative working session. Address the format (demonstrate working product, facilitate genuine dialogue) before layering AI on top of a flawed approach.
+- Dashboards emphasising delivery statistics and technical throughput rarely address what stakeholders actually need: understanding of business impact and the opportunity to influence direction.
 
 ### Sprint Retrospective
-- AI can identify patterns across multiple retrospectives (recurring themes, word frequency). However, pattern recognition is not causal diagnosis. "Communication breakdown" appearing frequently across retros is a surface observation — the team must determine the root cause (which may be unclear decision authority, not communication format).
-- AI-generated retrospective designs should be reviewed for team-specific context: psychological safety level, recent conflicts, individual learning styles, and actual time capacity. A well-structured generic design may still miss critical team dynamics.
-- Retrospective transcripts contain sensitive content (interpersonal conflicts, performance concerns, leadership failures). Processing these through AI requires explicit individual consent, not majority agreement. One objection must be respected.
+- AI can surface recurring themes across historical retrospective records. However, statistical frequency is not the same as root-cause understanding. A theme like "handoff delays" appearing repeatedly is a symptom — whether the underlying cause is role ambiguity, architectural coupling, or team structure requires human investigation and team discussion.
+- Any AI-suggested retrospective format should be evaluated against the team's current emotional state, trust levels, interpersonal dynamics, and available energy. Generic facilitation plans often miss what matters most for a particular group at a particular moment.
+- Retrospective records frequently contain highly sensitive material — candid feedback about leadership, interpersonal tensions, and individual struggles. Before any AI processing of this data, every participant must individually consent with full understanding of how the data will be handled. A single objection warrants finding an alternative approach.
 
 ### Daily Scrum
-- AI recommendations to change Daily Scrum format should be presented to the team for discussion, not imposed. Teams are self-managing — process changes require team ownership regardless of how strong the AI's evidence appears.
+- When AI analysis suggests changing team coordination practices, bring the finding to the team as a discussion topic rather than a directive. Self-managing teams choose their own ways of working — even well-evidenced suggestions require team buy-in to succeed.
 
 ---
 
-## AI for Metrics and Reporting
+## AI and Team Metrics
 
-### Verification Before Presentation
-- Always verify AI-calculated metrics using a spreadsheet or independent method before presenting to leadership. If metric definitions changed across measurement periods, the AI's trend analysis may be meaningless.
-- AI-generated "scores" (Release Credibility Score, Team Efficiency Score) must have explainable, reproducible methodology. If the formula cannot be defended under questioning, present the underlying raw metrics instead.
+### Validating Before Sharing
+- Reproduce any AI-computed metric independently (spreadsheet, manual calculation) before sharing it with leadership. Pay particular attention to whether measurement definitions remained consistent across the periods being compared — if the basis changed, the trend line is unreliable.
+- Composite scores produced by AI (combining multiple inputs into a single number) require fully transparent methodology. If the weighting or formula cannot be explained and defended in a leadership meeting, present the individual underlying measures instead.
 
-### Contextualising AI-Flagged Trends
-- AI reports relative changes ("500% increase in timeout errors") without absolute context. A 500% increase from 3 to 18 tickets, when active users grew 10x (200 to 2,000), means the error rate actually dropped (1.5% to 0.9%). Always check absolute numbers and proportional context before acting on AI-flagged trends.
+### Recognising Misleading Signals
+- AI tools report percentage changes without proportional context. A 500% increase from 3 to 18 support tickets sounds alarming, but if the user base simultaneously grew 10x (200 to 2,000), the actual incident rate fell from 1.5% to 0.9%. Before reacting to any AI-flagged trend, examine the absolute numbers and the denominator.
 
-### Activity vs Outcome Metrics
-- AI dashboards tracking individual commit frequency, lines of code, pull requests merged, and time in meetings measure **activity, not value**. These create perverse incentives: gaming metrics over collaboration, optimising for the dashboard over customer outcomes.
-- When an organisation mandates AI-powered productivity dashboards, the Scrum Master's duty as change agent is to document how these metrics measure activity rather than outcomes, propose alternative outcome-based metrics (cycle time, customer value delivered, defect escape rate), and escalate psychological safety concerns to leadership with specific examples.
-- Code metrics used for "contribution scores" reduce Developers to productivity units and violate professional autonomy. The Scrum Master response is not to pilot or improve the scoring — it is to articulate why the approach creates precisely the wrong incentives.
+### Distinguishing Activity from Value
+- Dashboards measuring individual code commits, lines written, merge request volume, or hours logged in meetings track **movement, not impact**. These metrics incentivise optimising for visibility rather than collaboration, learning, or customer outcomes.
+- When leadership mandates AI-driven productivity dashboards, the Scrum Master's responsibility as a change agent is to explain why activity proxies create harmful incentives, recommend outcome-oriented alternatives (delivery lead time, customer satisfaction, quality trends), and raise the psychological safety implications with concrete scenarios.
+- Scoring systems that rank individual developers by quantitative output reduce people to productivity units. The appropriate response is not to refine the scoring model — it is to challenge the premise that individual output rankings serve team or product goals.
 
-### Automated Status Reports
-- AI-generated weekly status reports from Jira data risk replacing genuine stakeholder engagement with "data theatre." The Scrum Master should articulate specific risks (gaming incentives, loss of engagement) and propose the alternative: stakeholders attending Sprint Reviews to see working software directly.
-
----
-
-## AI for Product Discovery and Backlog
-
-### Validating AI Recommendations
-- AI analysis of historical customer feedback identifies past patterns, not current needs. Before committing AI-recommended features to a roadmap, validate with current customers. Use a discovery sprint to test assumptions about actual needs versus historical patterns.
-
-### AI-Generated Test Cards and Hypotheses
-- When AI extracts testable hypotheses from PRDs, have a senior Developer review for technical accuracy before sharing with the Product Owner. AI may hallucinate specific technical claims (e.g., inventing a "45% latency reduction" figure not in the source document).
-- The optimal workflow: AI generates initial extraction (fast), human cross-references every claim back to source document (catches hallucinations), senior Developer validates technical accuracy (catches misinterpretation). Reinvest saved time in higher-value experiment design.
-
-### AI Citations and Research
-- AI frequently hallucinate plausible-sounding academic citations. Check every citation URL and quoted claim against original sources before distribution. Professional reputation depends on citation accuracy regardless of AI disclosure.
+### Replacing Engagement with Reports
+- Automated status summaries drawn from project tracking tools risk substituting genuine stakeholder interaction with polished but hollow data packages. Advocate instead for direct stakeholder participation in Sprint Reviews where they can see working product and shape priorities firsthand.
 
 ---
 
-## AI Ethics and Team Safety
+## AI in Product Discovery and Backlog Work
 
-### Consent and Privacy
-- Analysing employee communications (Slack messages, code comments, PR discussions) for performance implications without explicit consent violates privacy expectations, even on company-owned systems. People wrote those messages expecting peer collaboration, not AI surveillance for coaching identification.
-- When one team member objects to AI processing of retrospective data, seek explicit individual consent from every member with clear disclosure about data handling and opt-out alternatives. Majority agreement does not override individual consent for sensitive data.
+### Testing AI-Suggested Priorities
+- AI analysis of past customer feedback reveals historical demand patterns, not current or future needs. Markets evolve, competitors ship, and user expectations shift. Before building features recommended by backward-looking analysis, validate the recommendations with real users through lightweight discovery activities.
 
-### Psychological Safety
-- AI systems that monitor team channels and escalate teams as "resistant to improvement" when adoption metrics are low impose algorithmic judgement over team self-organisation. This replaces servant leadership with surveillance management and violates professional autonomy.
-- Individual contribution tracking (even anonymised) destroys psychological safety. In small teams, anonymisation is easily broken. The fundamental problem is using metrics for surveillance rather than team improvement.
+### Reviewing AI-Extracted Technical Claims
+- When AI pulls testable hypotheses or specifications from product documents, a technically experienced team member should verify accuracy before the work enters planning. AI tools sometimes fabricate precise-sounding technical details (e.g., claiming a "45% latency reduction" that appears nowhere in the source material).
+- An effective workflow: let AI handle the initial structured extraction (saving time), then manually trace every extracted claim back to its source document (catching fabrications), and have a knowledgeable team member confirm technical plausibility (catching misinterpretation). Channel time savings into higher-value activities like experiment design.
 
-### Accountability
-- When AI-generated documentation leads to incorrect decisions (e.g., inaccurate architecture docs during incident response), accountability sits with the humans who accepted AI output without verification. AI outputs are hypotheses requiring validation. Humans remain accountable for outcomes regardless of tool assistance.
-
----
-
-## AI Tool Configuration
-
-### Custom Instructions
-- Configure system-level custom instructions defining professional role, expertise level, communication preferences, and output requirements once, so every conversation inherits context automatically.
-- For project-specific needs, keep profile instructions unchanged (persistent identity baseline) and provide project-specific requirements in each conversation prompt. Layered approach: profile establishes baseline; prompts add situational context.
-
-### Effective Prompt Design
-- Specific trait instructions outperform vague ones. "Treat me as expert; apply radical candor; challenge assumptions; provide citations for non-obvious claims; skip introductory explanations; offer 3 follow-up questions" produces better results than "be helpful, accurate, and professional."
-- When output is too high-level, provide specific feedback on what is missing ("Add 3 exercises per module with timing, materials needed, and learning objectives") rather than vague requests ("make it more detailed") or starting over.
-- When output constraints matter (slide count, time limit, audience level), specify them upfront. Omitting constraints causes AI to optimise for comprehensiveness rather than actual success criteria.
-
-### Platform Selection
-- Evaluate actual workflow needs (memory isolation, project separation, consent model) before selecting an AI platform. Match capabilities to real requirements rather than selecting based on feature checklists.
+### Verifying AI-Provided References
+- AI tools routinely generate convincing but non-existent academic and industry citations. Before including any AI-sourced reference in external-facing material, verify that the cited work actually exists and supports the claim being made. Professional credibility depends on source accuracy regardless of whether AI involvement is disclosed.
 
 ---
 
-## Iterating on AI Output
+## Ethical Boundaries and Team Safety
 
-### Reflection-Then-Regenerate
-- For comprehensive but generic AI reports, use a reflection agent to critique the original output, identify its biggest weaknesses, then create an improved prompt for a second run addressing identified gaps systematically. This is PDCA applied to AI interaction.
+### Data Consent and Privacy
+- Mining team communications (messaging platforms, code review discussions, commit histories) for behavioural or performance insights without clear individual consent violates reasonable privacy expectations. Team members created those artifacts for peer collaboration, not for algorithmic assessment.
+- When even one person raises concerns about AI processing of ceremony records or team data, treat this as a signal to seek proper individual consent from everyone — with transparent explanation of data handling and genuine opt-out alternatives. Group majority does not override individual data rights for sensitive material.
 
-### Meta-Prompting
-- When a prompt produces acceptable but not excellent results, ask the AI to critique the prompt itself: "What's ambiguous? What's missing? What constraints would sharpen the output?" Use the AI's suggestions to revise and test. This is more effective than random trial-and-error iteration.
+### Protecting Psychological Safety
+- AI systems that monitor collaboration channels and label teams as "resistant" when they decline recommended process changes impose algorithmic authority over professional self-determination. This dynamic replaces servant leadership with automated compliance enforcement.
+- Tracking individual contributions — even when presented as anonymised — erodes trust within teams. In small groups, anonymity is trivially breakable. The core issue is using measurement for surveillance rather than collective learning.
+
+### Maintaining Human Accountability
+- When AI-produced artifacts (such as system documentation) prove inaccurate and contribute to poor decisions, responsibility belongs to the people who relied on those artifacts without independent verification. Tool outputs are always provisional until validated by a knowledgeable person. Outcomes remain a human responsibility regardless of which tools were involved in producing inputs.
 
 ---
 
-## Common Anti-Patterns
+## Configuring AI Tools Effectively
 
-| Anti-Pattern | Description | Remedy |
+### Persistent Context Setup
+- Set up platform-level instructions that define professional background, domain expertise, preferred communication style, and output expectations once. This ensures consistent context across all conversations without repetitive preambles.
+- When a particular project requires different tone, format, or constraints, keep the baseline profile intact and layer project-specific instructions into individual conversation prompts. This separates stable identity context from situational needs.
+
+### Writing Actionable Instructions
+- Precise behavioural instructions produce dramatically better results than vague quality descriptors. Specifying "assume domain expertise; question unstated assumptions; cite sources for surprising claims; omit introductory context; suggest angles I may have overlooked" gives the AI clear operating parameters. Asking it to "be thorough and professional" does not.
+- When AI output lacks necessary detail, describe exactly what is missing ("include facilitator timing notes, required materials, and participant pre-work for each workshop segment") rather than requesting generic improvement. Treat the AI like a capable colleague who needs a clear brief, not a vague direction.
+- State format constraints (length limits, audience level, structure requirements) in the initial prompt. Without them, AI defaults to maximising coverage rather than meeting actual communication needs.
+
+### Selecting Platforms Thoughtfully
+- Choose AI platforms based on actual workflow requirements — data isolation needs, project boundary management, team consent models — rather than feature comparison tables. The best platform is the one whose capabilities match how the team actually works.
+
+---
+
+## Improving AI Output Iteratively
+
+### Critique-Then-Refine
+- When an AI-produced report or analysis is broadly correct but lacks depth or specificity, use a structured critique step: ask an AI (or a colleague) to identify the three to five most significant gaps or weaknesses, then use those findings to craft a targeted follow-up prompt. This mirrors the inspect-and-adapt cycle applied to AI interaction itself.
+
+### Prompt Self-Assessment
+- When a prompt consistently produces adequate but uninspiring results and the cause is unclear, ask the AI to evaluate the prompt itself: "What in this prompt is ambiguous? What context is missing? What constraints would produce sharper output?" Use those observations to revise the prompt and compare results. This is more productive than making undirected changes.
+
+---
+
+## Common Pitfalls
+
+| Pitfall | What Happens | Better Approach |
 |---|---|---|
-| AI as oracle | Treating AI output as authoritative conclusion | AI produces hypotheses; validate with human expertise |
-| Dependency inversion | Human validates AI rather than AI assisting human | Reset to manual; rebuild direct engagement; reintroduce AI selectively |
-| Optimising broken processes | Using AI to automate a dysfunctional ceremony | Fix the ceremony format first; then consider AI assistance |
-| Pattern = diagnosis | Treating word frequency as root cause | Use AI patterns as conversation starters; team determines root cause |
-| Surveillance coaching | Using AI to monitor and score individual performance | Advocate for outcome metrics; escalate psychological safety concerns |
-| Consent bypass | Processing team data because it's on company systems | Explicit individual consent required for AI processing of team data |
-| Hollow automation | Professional-looking AI reports that feel formulaic | Rebuild direct data engagement; AI should amplify insight, not replace it |
+| Treating AI as authority | Decisions made on unverified AI conclusions | AI generates hypotheses; humans verify and decide |
+| Inverted dependency | Practitioner becomes AI output reviewer rather than domain expert using AI assistance | Step back from AI tools temporarily; rebuild direct engagement; reintroduce AI where it genuinely amplifies expertise |
+| Automating dysfunction | AI makes a broken process faster or more polished | Diagnose and fix the underlying process problem first; then consider whether AI adds value |
+| Confusing frequency with causation | Statistical patterns in text treated as root-cause analysis | Present patterns to the team as observations; facilitate human root-cause investigation |
+| Algorithmic performance management | AI scores or ranks individuals based on activity proxies | Champion outcome-based team metrics; escalate safety and autonomy concerns to leadership |
+| Assumed consent | Team data processed because it exists on organisational systems | Obtain explicit informed consent from each individual before AI processing |
+| Polished emptiness | Professionally formatted AI reports that lack genuine insight | Reconnect with primary data and direct team interaction; use AI only where it deepens rather than replaces understanding |
 
 ## Additional Resources
 
 - **`scrum`** skill — Scrum framework, events, artifacts for context on where AI intersects with ceremonies
-- **`agile-metrics`** skill — Metrics foundations for understanding what AI should and should not measure
+- **`agile-metrics`** skill — Measurement foundations for understanding what AI should and should not track
 - **`agile-coach`** skill — Coaching stances and psychological safety foundations
