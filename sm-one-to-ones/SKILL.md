@@ -81,6 +81,38 @@ Build trust with consistency over time. Don't push for depth before it's there.
 - "If you could change one thing about how we work as a team, what would it be?"
 - "How are you doing — not just at work?"
 
+### Question bank by intent
+
+Use these to purposefully steer a 1:1 depending on what the team member needs — not as a script to run through. Pick one or two that fit the moment.
+
+**Building trust**
+- "What's something you've been sitting on but haven't found the right moment to raise?"
+- "Is there anything about your work situation that you'd want me to understand better?"
+- "What's one thing that's been going well that we haven't stopped to acknowledge?"
+- "How supported do you feel when things get difficult in the sprint?"
+- "Is there anything I've done — or not done — that's made your job harder?"
+
+**Strengthening the relationship**
+- "What's one thing I could do differently that would make me more useful to you?"
+- "What's motivating you most about the work right now?"
+- "What's changed for you in the last few sprints — in how you're experiencing the team or the work?"
+- "Is there something you're proud of recently that hasn't really been noticed?"
+- "If you could change one thing about how we work together, what would it be?"
+
+**Uncovering challenges**
+- "What's taking longer than it should right now, and what's getting in the way?"
+- "Are there any risks or concerns you're holding back from raising because you're not sure they'll land?"
+- "Where do you feel like you're waiting on someone else — inside or outside the team?"
+- "What feels harder than it ought to be at the moment?"
+- "Is there any work happening that feels like it probably shouldn't be — things that seem like waste?"
+
+**Advancing the work**
+- "What would make the next sprint meaningfully better than this one?"
+- "Is there a quick win available right now that nobody's picked up yet?"
+- "What does a really successful sprint look like for you personally?"
+- "What would you want the team to protect — things that are working and shouldn't be tinkered with?"
+- "If you could fix or change one thing before the end of this sprint, what would it be?"
+
 **What to avoid**:
 - Task status updates — that's what standups are for
 - Leading questions that reveal what answer you're hoping for

@@ -211,6 +211,21 @@ Combine your observations with the survey data and 1:1 signals to get a rounded 
 
 **Observation vs. interpretation**: Describe what you see before drawing conclusions. "Three team members checked their phones during planning" is an observation. "The team is disengaged" is an interpretation. Both matter — but keep them separate. The interpretation is a hypothesis to test in a 1:1 or by creating a space in a retro, not a fact to act on directly.
 
+### Diagnostic conversation starters
+
+Use these in informal conversations or lightweight check-ins to surface health signals before they appear in survey data. They work best as natural side-conversations — in a coffee break, after a ceremony, or at the start of a casual catch-up — not as a structured interview.
+
+- "What's the one thing slowing the team down most right now that we haven't properly addressed?"
+- "Are there any concerns sitting with the team that nobody's quite ready to bring into a retro yet?"
+- "Is there something we keep doing that feels more like going through the motions than actually helping?"
+- "Where do you feel like the team is waiting on something outside its control?"
+- "Is there a risk we're all quietly aware of but not really talking about?"
+- "What would free up the most time or headspace for the team right now?"
+- "If the next sprint could be different in one way, what would make the biggest difference?"
+- "What does success look like for this sprint — for you personally, not just on the board?"
+
+These questions are diagnostic, not prescriptive. The goal is to hear what doesn't show up in aggregated survey data — the half-formed concern, the dependency nobody's escalated, the frustration that feels too small to raise formally. Treat the answers as signals to triangulate, not problems to fix on the spot.
+
 ---
 
 ## Health Check Formats
