@@ -59,7 +59,7 @@ The Sprint Retrospective is the team's structured PDCA cycle. For it to drive re
 
 **Track improvement metrics**: If cycle time is the target metric, track it sprint-over-sprint. If the improvement isn't visible in the data, either the measurement is wrong or the intervention isn't working.
 
-See **`scrum`** skill → `references/retrospective-formats.md` for facilitation formats.
+See **`scrum/references/retrospective-formats.md`** (in the `scrum` skill) for facilitation formats, and `references/improvement-metrics-templates.md` for tracking whether the actions worked.
 
 ---
 

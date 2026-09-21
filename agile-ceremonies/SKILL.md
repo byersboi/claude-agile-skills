@@ -173,7 +173,7 @@ When multiple teams are delivering related products, individual team reviews can
 
 ## Sprint Retrospective
 
-See **`references/retrospective-formats.md`** in the `scrum` skill for detailed formats.
+See **`scrum/references/retrospective-formats.md`** (in the `scrum` skill) for detailed formats.
 
 **Purpose**: Inspect how the team worked and create an improvement plan.
 
@@ -315,5 +315,5 @@ Use at the start of a new product, programme, or major initiative.
 
 ## Additional Resources
 
-- **`references/retrospective-formats.md`** — Full set of retrospective formats (see `scrum` skill)
+- **`scrum/references/retrospective-formats.md`** — Full set of retrospective formats (lives in the `scrum` skill)
 - **`references/facilitation-tools.md`** — Digital tools for remote ceremony facilitation
