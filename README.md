@@ -47,7 +47,7 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/claude-agile-skills.git
+git clone https://github.com/byersboi/claude-agile-skills.git
 
 # Copy all skills to your Claude skills directory
 cp -r claude-agile-skills/* ~/.claude/skills/
