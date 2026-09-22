@@ -1,6 +1,6 @@
 ---
 name: Agile Coach
-description: This skill should be used when the user asks about "agile coach", "agile coaching", "coaching stance", "coaching stances", "team coaching", "organisational coaching", "coaching agreement", "coaching conversation", "team maturity", "tuckman model", "forming storming norming performing", "agile coaching competencies", "enterprise agile coaching", "coaching vs mentoring", "facilitation vs coaching", "psychological safety", "team dynamics", "systemic coaching", "coaching the organisation", "coaching anti-patterns", "coaching a product owner", "coaching a scrum master", "coaching a team member", "coaching a leader", "coaching an agile manager", "role-specific coaching", or is working in an agile coach or transformation role.
+description: This skill should be used when the user asks about "agile coach", "agile coaching", "coaching stance", "coaching stances", "team coaching", "organisational coaching", "coaching agreement", "coaching conversation", "team maturity", "tuckman model", "forming storming norming performing", "agile coaching competencies", "agile coaching growth wheel", "coaching proficiency levels", "self-mastery coaching", "enterprise agile coaching", "coaching vs mentoring", "facilitation vs coaching", "psychological safety", "team dynamics", "systemic coaching", "coaching the organisation", "coaching anti-patterns", "coaching a product owner", "coaching a scrum master", "coaching a team member", "coaching a leader", "coaching an agile manager", "role-specific coaching", or is working in an agile coach or transformation role.
 version: 1.0.0
 ---
 
@@ -25,6 +25,33 @@ Developed by Lyssa Adkins and Michael Spayd (Agile Coaching Institute), this fra
 - **Transformation Mastery** — Change management, organisational design, leadership
 
 Most agile coaches are strong in 2–3 domains. Know your primary stance and develop the others intentionally.
+
+## Agile Coaching Growth Wheel
+
+A complementary, more recent framework (Mark Summers et al., agilecoachinggrowthwheel.org) that extends the Adkins/Spayd model with explicit **proficiency levels** and places **Self-Mastery at the hub**. Useful for self-assessment and growth planning rather than just competency mapping.
+
+**Structure**:
+- **Hub**: Self-Mastery (presence, emotional regulation, inner stance, bias awareness)
+- **Spokes (competencies)**: Agile-Lean Practitioner, Serving, Coaching, Facilitating, Guiding Learning, Advising, Leading, Transforming
+- **Outer tread**: Domain Knowledge (industry, technical, business context)
+
+**Proficiency levels per competency**:
+
+| Level | What it looks like |
+|---|---|
+| **Beginner** | Aware of the competency; relies on scripts and recipes |
+| **Learner** | Applies it with support; recognises when they're out of depth |
+| **Practitioner** | Works independently in familiar contexts; adapts to situation |
+| **Guide** | Coaches others in the competency; handles novel and complex contexts |
+| **Catalyst** | Shapes the field; develops new practice; recognised beyond their org |
+
+**How to use it with a coachee**:
+1. Self-rate each competency on the 5-level scale
+2. Identify the 1–2 competencies where growth would most unlock their coaching impact
+3. Set growth experiments (not training courses) — real engagements that stretch those competencies
+4. Review with a peer coach or supervisor monthly
+
+**Why Self-Mastery is the hub**: every other competency degrades when the coach is reactive, triggered, or attached to outcomes. Coaches cannot take a team further than they have taken themselves.
 
 ## The Five Coaching Stances
 
