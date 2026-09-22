@@ -19,6 +19,7 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 | `kanban` | Boards, WIP limits, flow metrics, CFD, classes of service, Kanban cadences |
 | `agile-coach` | Coaching stances, GROW model, Tuckman's model, psychological safety, organisational coaching |
 | `agile-delivery-manager` | Governance, stakeholder management, programme planning, RAID, reporting |
+| `head-of-delivery` | Delivery capability, DDaT capability framework, delivery manager job family and progression, hiring and assessing delivery managers, community of practice |
 | `agile-scaling` | SAFe, LeSS, Nexus, Spotify model, Scrum of Scrums — when and how to scale |
 | `agile-metrics` | Velocity, throughput, cycle time, lead time, OKRs, NPS, Monte Carlo forecasting |
 | `agile-ceremonies` | Sprint Planning, Daily Scrum, Backlog Refinement, Retrospective, Story Mapping |
@@ -37,6 +38,8 @@ Skills extend Claude Code with specialised knowledge. When you ask Claude a ques
 | `team-health` | Health dimensions, sprint surveys, triangulating signals, reading trends, acting on data, health check formats |
 | `monte-carlo-forecasting` | Probabilistic forecasting, simulation mechanics, confidence thresholds, communicating results, throughput-based forecasting |
 | `engineering-standards` | Dependency governance, branch strategy, code review, security scanning, code quality, repository management |
+| `bdd-user-stories` | BDD, Gherkin, Given/When/Then, three amigos, executable specifications, linking stories to automated tests |
+| `ai-in-agile` | Responsible AI adoption, AI in sprint ceremonies, AI-assisted facilitation and estimation, output validation, data ethics |
 
 ## Installation
 
